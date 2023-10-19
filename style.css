@@ -1,0 +1,185 @@
+/********** Feiticeira Escarlate CSS **********/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffcaca;
+}
+
+/****Cabeçalho****/
+.nav{
+    background-color: #a60815;
+    justify-content: center;
+    text-decoration: none;
+}
+#active{
+    color: #ffcaca;
+}
+.nav-link-title{
+    font-family: "Ubuntu";
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 17.5px;
+    padding: 0;
+    color: #ffcaca;
+    outline: none;
+    font-size: 35px;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+.nav-link-title:hover{
+    color: #ffffff;
+    font-size: 37px;
+    transition-duration: 2s;
+    text-decoration: none;
+}
+.nav .nav-item .nav-link{
+    margin-right: 35px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 0;
+    color: #ffffff;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #ffcaca;
+    transition: 0.5s;
+}
+
+/****Container****/
+.container{
+    display: block;
+    width: 75%;
+    height: 100%;
+    align-content: center;
+    background-color: #a60815;
+    margin-top: 10px;
+}
+.text{
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+
+/****Carousel****/
+#carouselExampleIndicators{
+    width: 100%;
+}
+
+/****Cards****/
+.card{
+    background-color: #ffcaca;
+    transition-duration: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
+.card-text{
+    font-family: "Open Sans";
+}
+.card-title{
+    font-family: "Ubuntu";
+}
+
+/****Footer****/
+.footer{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #a60815;
+    text-align: center;
+}
+.rdp{
+    font-family: "Open Sans";
+    font-size: 17px;
+}
+.social{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.social li{
+    margin-top: 6px;
+    display: block;
+    margin-left: 20px;
+}
+.social img{
+    width: 5%;
+    height: 5%;
+    transition: 1s;
+}
+.social img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.seta{
+    float: right;
+    margin-right: 1%;
+}
+
+/****Botão modal****/
+.btn{
+    background-color: #ffcaca;
+    border-color: #a60815;
+    color: black;
+}
+.btn:hover{
+    background-color: #260101;
+    border-color: #a60815;
+}
+
+/****Text****/
+.title{
+    font-family: "Ubuntu";
+    font-size: 35px;
+    margin: 0;
+    color: black;
+}
+.titlea{
+    font-family: "Ubuntu";
+    font-size: 25px;
+    margin: 0;
+    color: black;
+}
+.text{
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+}
+
+/****Contato****/
+.form-group{
+    font-family: "Open Sans";
+}
+textarea{
+    resize: none;
+}
+
+/****Contato redirecionamento****/
+.boxred{
+    width: 50%;
+    height: 50%;
+    border: none;
+    margin: auto;
+    padding: 50px;
+    justify-content: center;
+    display: block;
+    transition-duration: 1s;
+    float: center;
+    transition-duration: 1s;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 40px;
+}
+
+.boxred:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
